@@ -347,16 +347,21 @@
     "code": 1,
     "msg": "success",
     "data": {
-        "recordId": 1,
+        "recordId": 2,
         "details": [
             {
-                "id": 1,
-                "examRecordId": 1,
+                "detailId": 1,
+                "recordId": 2,
                 "questionId": 1,
                 "userAnswer": "B",
-                "correctAnswer": "B",
-                "isCorrect": true,
-                "score": 2
+                "isCorrect": 0
+            },
+            {
+                "detailId": 2,
+                "recordId": 2,
+                "questionId": 2,
+                "userAnswer": "A",
+                "isCorrect": 1
             }
         ]
     }
@@ -482,6 +487,7 @@
 - Thunder Client (VS Code插件)
 - Apifox
 - Swagger UI (可集成到项目中)
+
 
 
 
