@@ -250,20 +250,32 @@
     "code": 1,
     "msg": "success",
     "data": {
-        "examId": 1,
         "questions": [
             {
-                "id": 1,
-                "content": "题目内容",
-                "optionA": "选项A",
-                "optionB": "选项B",
-                "optionC": "选项C",
-                "optionD": "选项D",
-                "answer": "B"
-            }
-        ]
+                "questionId": 881,
+                "subjectType": "科目一",
+                "typeId": 1,
+                "questionContent": "61. 驾驶人未携带哪种证件驾驶机动车上路，交通警察可依法扣留车辆？",
+                "optionA": "机动车通行证",
+                "optionB": "居民身份证",
+                "optionC": "从业资格证",
+                "optionD": "机动车行驶证",
+                "correctAnswer": "D",
+                "analysis": "",
+                "score": 1,
+                "difficulty": "易",
+                "hasImage": 0,
+                "imagePath": "",
+                "createTime": "2025-12-16T11:37:54",
+                "updateTime": "2025-12-16T11:37:54"
+            },
+          ......
+          ......
+          ......
+       ]
     }
 }
+
 ```
 
 ### 4.2 开始考试
@@ -472,6 +484,7 @@
 - Thunder Client (VS Code插件)
 - Apifox
 - Swagger UI (可集成到项目中)
+
 
 
 
