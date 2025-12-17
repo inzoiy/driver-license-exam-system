@@ -74,21 +74,61 @@
     "code": 1,
     "msg": "success",
     "data": {
-        "total": 100,
+        "total": 1040,
         "records": [
             {
-                "id": 1,
+                "questionId": 2404,
+                "subjectType": "科目一",
+                "typeId": 3,
+                "questionContent": "饮酒后驾驶机动车的，一次记12分。",
+                "optionA": "",
+                "optionB": "",
+                "optionC": "",
+                "optionD": "",
+                "correctAnswer": "√",
+                "analysis": null,
+                "score": 1,
+                "difficulty": "易",
+                "hasImage": 0,
+                "imagePath": "",
+                "createTime": "2025-12-16T11:45:46",
+                "updateTime": "2025-12-16T11:45:46"
+            },
+            {
+                "questionId": 934,
                 "subjectType": "科目一",
                 "typeId": 1,
-                "content": "驾驶机动车在道路上违反道路交通安全法的行为，属于什么行为？",
-                "optionA": "违章行为",
-                "optionB": "违法行为",
-                "optionC": "过失行为",
-                "optionD": "违规行为",
-                "answer": "B",
-                "score": "2",
-                "difficulty": "简单",
-                "explanation": "违反道路交通安全法属于违法行为"
+                "questionContent": "23.牵引故障车时，牵引车和被牵引车均应当开启危险报警闪光灯。",
+                "optionA": "正确",
+                "optionB": "错误",
+                "optionC": "",
+                "optionD": "",
+                "correctAnswer": "A",
+                "analysis": "",
+                "score": 1,
+                "difficulty": "易",
+                "hasImage": 0,
+                "imagePath": "",
+                "createTime": "2025-12-16T11:37:54",
+                "updateTime": "2025-12-16T11:37:54"
+            },
+            {
+                "questionId": 935,
+                "subjectType": "科目一",
+                "typeId": 3,
+                "questionContent": "24. 行车中遇交通事故受伤者需要抢救时，应怎样做？\nA、及时将伤者送医院抢救或拨打急救电话\nB、尽量避开，少惹麻烦\nC、绕过现场行驶\nD、借故避开现场\n答案：A\n25.在道路上发生交通事故造成人身伤亡时，要立即抢救受伤人员并迅速报警。",
+                "optionA": "",
+                "optionB": "",
+                "optionC": "",
+                "optionD": "",
+                "correctAnswer": "√",
+                "analysis": "",
+                "score": 1,
+                "difficulty": "易",
+                "hasImage": 0,
+                "imagePath": "",
+                "createTime": "2025-12-16T11:37:54",
+                "updateTime": "2025-12-16T11:37:54"
             }
         ]
     }
@@ -429,5 +469,6 @@
 - Thunder Client (VS Code插件)
 - Apifox
 - Swagger UI (可集成到项目中)
+
 
 
