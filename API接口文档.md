@@ -98,6 +98,30 @@
 ### 2.2 根据ID获取题目
 - **接口地址**: `GET /api/questions/{id}`
 - **接口说明**: 根据题目ID获取题目详情
+- **响应示例**:
+- ```json
+  {
+    "code": 1,
+    "msg": "success",
+    "data": {
+        "questionId": 1,
+        "subjectType": "科目一",
+        "typeId": 1,
+        "questionContent": "1.机动车驾驶人饮酒后驾驶机动车的，一次记几分？",
+        "optionA": "1分",
+        "optionB": "3分",
+        "optionC": "6分",
+        "optionD": "12分",
+        "correctAnswer": "D",
+        "analysis": "",
+        "score": 1,
+        "difficulty": "易",
+        "hasImage": 0,
+        "imagePath": "",
+        "createTime": "2025-12-16T11:37:54",
+        "updateTime": "2025-12-16T11:37:54"
+    }
+}
 
 ### 2.3 新增题目
 - **接口地址**: `POST /api/questions`
@@ -405,4 +429,5 @@
 - Thunder Client (VS Code插件)
 - Apifox
 - Swagger UI (可集成到项目中)
+
 
