@@ -289,15 +289,14 @@
     "code": 1,
     "msg": "success",
     "data": {
-        "id": 1,
+        "recordId": 2,
         "userId": 1,
-        "examPaperId": 1,
-        "score": 0,
-        "totalScore": 100,
-        "correctCount": 0,
-        "wrongCount": 0,
-        "status": "进行中",
-        "startTime": "2024-01-01T10:00:00"
+        "paperId": 1,
+        "examScore": 0,
+        "examTime": 0,
+        "isPass": 0,
+        "examStartTime": "2025-12-17T20:42:30.2402783",
+        "examEndTime": null
     }
 }
 ```
@@ -484,6 +483,7 @@
 - Thunder Client (VS Code插件)
 - Apifox
 - Swagger UI (可集成到项目中)
+
 
 
 
