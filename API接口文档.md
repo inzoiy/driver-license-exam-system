@@ -205,15 +205,18 @@
     "msg": "success",
     "data": [
         {
-            "id": 1,
-            "paperName": "科目一模拟考试",
+            "paperId": 3,
+            "paperName": "科目一模拟考试1",
             "subjectType": "科目一",
-            "questionCount": 100,
-            "duration": 45,
-            "passScore": 90,
             "totalScore": 100,
-            "status": "启用"
-        }
+            "passScore": 90,
+            "totalQuestion": 100,
+            "singleNum": 80,
+            "multiNum": 0,
+            "judgeNum": 20,
+            "createTime": "2025-12-16T11:45:53",
+            "updateTime": "2025-12-16T11:45:53"
+        },
     ]
 }
 ```
@@ -469,6 +472,7 @@
 - Thunder Client (VS Code插件)
 - Apifox
 - Swagger UI (可集成到项目中)
+
 
 
 
