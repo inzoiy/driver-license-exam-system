@@ -419,19 +419,27 @@
     "code": 1,
     "msg": "success",
     "data": {
-        "userId": 1,
         "wrongQuestions": [
             {
-                "id": 1,
-                "content": "题目内容",
-                "optionA": "选项A",
-                "optionB": "选项B",
-                "optionC": "选项C",
-                "optionD": "选项D",
-                "answer": "B",
-                "explanation": "解析内容"
+                "questionId": 1,
+                "subjectType": "科目一",
+                "typeId": 1,
+                "questionContent": "1.机动车驾驶人饮酒后驾驶机动车的，一次记几分？",
+                "optionA": "1分",
+                "optionB": "3分",
+                "optionC": "6分",
+                "optionD": "12分",
+                "correctAnswer": "D",
+                "analysis": "",
+                "score": 1,
+                "difficulty": "易",
+                "hasImage": 0,
+                "imagePath": "",
+                "createTime": "2025-12-16T11:37:54",
+                "updateTime": "2025-12-16T11:37:54"
             }
-        ]
+        ],
+        "userId": 1
     }
 }
 ```
@@ -496,6 +504,7 @@
 - Thunder Client (VS Code插件)
 - Apifox
 - Swagger UI (可集成到项目中)
+
 
 
 
