@@ -382,20 +382,29 @@
     "code": 1,
     "msg": "success",
     "data": {
-        "userId": 1,
         "records": [
             {
-                "id": 1,
-                "examPaperId": 1,
-                "score": 95,
-                "totalScore": 100,
-                "correctCount": 95,
-                "wrongCount": 5,
-                "status": "已完成",
-                "startTime": "2024-01-01T10:00:00",
-                "submitTime": "2024-01-01T10:45:00"
+                "recordId": 3,
+                "userId": 1,
+                "paperId": 1,
+                "examScore": 1,
+                "examTime": 5,
+                "isPass": 0,
+                "examStartTime": "2025-12-17T20:50:19",
+                "examEndTime": "2025-12-17T20:55:25"
+            },
+            {
+                "recordId": 2,
+                "userId": 1,
+                "paperId": 1,
+                "examScore": 1,
+                "examTime": 12,
+                "isPass": 0,
+                "examStartTime": "2025-12-17T20:42:30",
+                "examEndTime": "2025-12-17T20:54:45"
             }
-        ]
+        ],
+        "userId": 1
     }
 }
 ```
@@ -487,6 +496,7 @@
 - Thunder Client (VS Code插件)
 - Apifox
 - Swagger UI (可集成到项目中)
+
 
 
 
