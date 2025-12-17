@@ -171,15 +171,14 @@
 {
     "subjectType": "科目一",
     "typeId": 1,
-    "content": "题目内容",
+    "questionContent": "题目内容",
     "optionA": "选项A",
     "optionB": "选项B",
     "optionC": "选项C",
     "optionD": "选项D",
-    "answer": "B",
+    "correctAnswer": "B",
     "score": "2",
-    "difficulty": "简单",
-    "explanation": "解析内容"
+    "difficulty": "易"
 }
 ```
 
@@ -458,7 +457,41 @@
 - **请求参数**:
   - `page` (可选): 页码，默认1
   - `pageSize` (可选): 每页数量，默认10
-
+  - 
+- **响应示例**:
+```json
+{
+    "code": 1,
+    "msg": "success",
+    "data": {
+        "total": 2,
+        "records": [
+            {
+                "userId": 2,
+                "username": "student01",
+                "password": "1234",
+                "realName": "张三",
+                "phone": "13800138001",
+                "role": "student",
+                "status": 1,
+                "createTime": "2025-12-16T11:45:46",
+                "updateTime": "2025-12-17T14:29:12"
+            },
+            {
+                "userId": 1,
+                "username": "admin",
+                "password": "1234",
+                "realName": "系统管理员",
+                "phone": "13800138000",
+                "role": "admin",
+                "status": 1,
+                "createTime": "2025-12-16T11:36:01",
+                "updateTime": "2025-12-17T14:29:11"
+            }
+        ]
+    }
+}
+```
 ### 6.2 根据ID获取用户
 - **接口地址**: `GET /admin/users/{id}`
 
@@ -469,10 +502,10 @@
 {
     "username": "test",
     "password": "123456",
-    "name": "测试用户",
-    "phone": "13800138000",
+    "realName": "测试用户",
+    "phone": "13800138002",
     "role": "学员",
-    "status": "正常"
+    "status": "1"
 }
 ```
 
@@ -504,6 +537,7 @@
 - Thunder Client (VS Code插件)
 - Apifox
 - Swagger UI (可集成到项目中)
+
 
 
 
